@@ -1,27 +1,22 @@
-**exercise 1**  
-```bash
+**exercise 1**
 ls -la
 
-**Exercise 2**
-```bash
+**exercise 2**
 ls -laR
 
-**Exercise 3**
-```bash
+**exercise 3**
 ls -lah
 
-**Exercise 4**
-```bash
+**exercise 4**
 ls -lt
 
-**Exercise 5**
-```bash
+**exercise 5**
 ls -lt
 
-**Exercise 6**
-```bash
+
+**exercise 6**
 ls -lr
 
-**Exercise 7**
-```bash
+
+**exercise 7**
 ls -l
