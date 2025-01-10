@@ -25,3 +25,4 @@ ls -lr
 **Exercise 7**
 
 ls -l
+**exercise 1** 
