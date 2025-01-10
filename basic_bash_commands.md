@@ -2,26 +2,26 @@
 ```bash
 ls -la
 
-Exercise 2
+**Exercise 2**
 
 ls -laR
 
-Exercise 3
+**Exercise 3**
 
 ls -lah
 
-Exercise 4
+**Exercise 4**
 
 ls -lt
 
-Exercise 5
+**Exercise 5**
 
 ls -lt
 
-Exercise 6
+**Exercise 6**
 
 ls -lr
 
-Exercise 7
+**Exercise 7**
 
 ls -l
