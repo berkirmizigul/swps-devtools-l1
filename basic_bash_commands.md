@@ -1,6 +1,4 @@
-**Berk Kirmizigul
- 
- **exercise 1**  
+**exercise 1**  
 ```bash
 ls -la
 
