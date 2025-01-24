@@ -1,29 +1,55 @@
-**exercise 1**
 
-ls -la
+**Exercise 1**.
+```bash
+ls ~ | grep '^[A-Z]'
 
-**exercise 2**
+```
 
-ls -laR
+**Exercise 2**.
+```bash
+ls -a ~ | grep '^\.' 
+```
 
-**exercise 3**
+**Exercise 3**.
+```bash
+ls -a ~ | grep '^\.' | wc -l
+```
 
-ls -lah
+**Exercise 4**.
+```bash
+ls ~ | grep '^[a-zA-Z]*$'
+```
 
-**exercise 4**
+**Exercise 5**.
+```bash
+ls ~ | grep '^[^A-Z]*$'
+```
 
-ls -lt
+**Exercise 6**.
+```bash
+ls ~ | grep -v '\.[a-zA-Z0-9]\{3\}$'
+```
 
-**exercise 5**
+**Exercise 7**.
+```bash
+ls /etc | grep '^c.*y$'
+```
 
-ls -lt
+**Exercise 8**.
+```bash
+ls /etc | grep 'ss'
+```
 
+**Exercise 9**.
+```bash
+ls ~ | grep '^.\{1\}[A-Z].{1}[A-Z].e$'
+```
 
-**exercise 6**
+**Exercise 10**.
+```bash
+ls ~ | grep '^[a-zA-Z0-9]\{4\}$'
+```
 
-ls -lr
-
-
-**exercise 7**
-
-ls -l
+**Exercise 11**.
+```bash
+ls /var/log | grep '\.log$'
