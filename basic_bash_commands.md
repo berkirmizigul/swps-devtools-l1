@@ -1,55 +1,30 @@
-
 **Exercise 1**.
 ```bash
-ls ~ | grep '^[A-Z]'
-
+cd ~         
+ls -l
 ```
-
 **Exercise 2**.
 ```bash
-ls -a ~ | grep '^\.' 
+sudo ls -lhS /var/log | sort -h
 ```
-
 **Exercise 3**.
 ```bash
-ls -a ~ | grep '^\.' | wc -l
+nano berk.txt
 ```
-
 **Exercise 4**.
 ```bash
-ls ~ | grep '^[a-zA-Z]*$'
+echo "KIRMIZIGUL" > kirmizigul.txt
 ```
-
 **Exercise 5**.
 ```bash
-ls ~ | grep '^[^A-Z]*$'
+cat berk.txt     
+cat kirmizigul.txt  
 ```
-
 **Exercise 6**.
 ```bash
-ls ~ | grep -v '\.[a-zA-Z0-9]\{3\}$'
+cat kirmizigul.txt >> berk.txt
 ```
-
 **Exercise 7**.
 ```bash
-ls /etc | grep '^c.*y$'
+ls -d */ > folders_list.txt
 ```
-
-**Exercise 8**.
-```bash
-ls /etc | grep 'ss'
-```
-
-**Exercise 9**.
-```bash
-ls ~ | grep '^.\{1\}[A-Z].{1}[A-Z].e$'
-```
-
-**Exercise 10**.
-```bash
-ls ~ | grep '^[a-zA-Z0-9]\{4\}$'
-```
-
-**Exercise 11**.
-```bash
-ls /var/log | grep '\.log$'
